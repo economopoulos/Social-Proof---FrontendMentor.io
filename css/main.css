@@ -219,122 +219,18 @@ h3 {
 
 /*Footer*/
 .attribution {
+  font-size: 11px;
+  text-align: center;
+  font-weight: 500;
   position: absolute;
   bottom: 2px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/*Tablet*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .container {
-    padding: 0 2rem;
-  }
-  .rating-box {
-    margin: 0.75rem 0;
-    padding: 1rem 0.8rem;
-  }
-  .rating-box:nth-child(2) {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .rating-box:first-child {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .rating {
-    padding: 0;
-  }
+.attribution a {
+  color: hsl(300, 43%, 22%);
+  text-decoration: none;
 }
 
-/*Mobile*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  body,
-  html {
-    overflow: auto;
-  }
-
-  /*Desktop Cicles*/
-  .circle-2 {
-    display: none;
-  }
-  .circle-1 {
-    display: none;
-  }
-
-  /*Mobile Circles*/
-  .circle-1-mobile {
-    display: block;
-  }
-
-  .circle-2-mobile {
-    display: none;
-  }
-  .lead {
-    text-align: center;
-    font-size: 2.2rem;
-  }
-  .info {
-    padding: 1rem;
-  }
-  .info-p {
-    text-align: center;
-    margin-top: 0rem;
-  }
-  .container {
-    padding: 0;
-  }
-  .content {
-    grid-template-areas:
-      "info"
-      "rating"
-      "testimonials";
-  }
-  .rating {
-    padding: 1rem;
-  }
-  .rating-box {
-    flex-direction: column;
-  }
-  .rating-box:nth-child(2) {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .rating-box:first-child {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .testimonials {
-    grid-template-columns: 1fr;
-    grid-gap: 1.2rem;
-    padding: 0 1.2rem;
-    margin-top: 0;
-  }
-  .testimonial-box:nth-child(2) {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .testimonial-box:last-child {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .rating {
-    padding: 2rem 1.2rem;
-  }
-  .stars {
-    margin-bottom: 0.75rem;
-  }
-  footer {
-    max-width: 600px;
-    height: 10px;
-    position: relative;
-  }
-  .attribution {
-    width: calc(100% - 2rem);
-    height: auto;
-    text-align: center;
-  }
-}
+/**File End Here**/

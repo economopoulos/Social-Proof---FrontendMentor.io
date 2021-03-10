@@ -1,0 +1,22 @@
+/*Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .rating-box {
+    margin: 0.75rem 0;
+    padding: 1rem 0.8rem;
+  }
+  .rating-box:nth-child(2) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .rating-box:first-child {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .rating {
+    padding: 0;
+  }
+}
